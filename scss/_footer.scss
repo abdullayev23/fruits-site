@@ -1,0 +1,138 @@
+footer{
+    background-color: #191919;
+    margin-top: 100px;
+}
+.ft{
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.ft-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ft ul li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.ft ul h3{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.ft ul p{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.link-ft{
+    display: flex;
+    align-items: center;
+}
+
+.link-ft img{
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.ft .ft-flex ul{
+    flex-wrap: wrap;
+}
+
+.ft ul h2{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.ft ul .input2{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ft ul .input2 input{
+    margin-left: 10px;
+}
+.ft ul .input2 button{
+    padding: 22px 25px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #7FAD39;
+    border: none;
+}
+
+.ft ul .input2 input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #757575;
+}
+
+.oxirgi{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ft h6{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+@media (max-width:1000px) {
+    .ft .ft-flex{
+        flex-wrap: wrap;
+    }
+    .ft .ft-flex ul{
+        margin: 20px 30px;
+    }
+    .oxirgi{
+        flex-wrap: wrap;
+    }
+    .oxirgi img{
+        margin-top: 10px;
+    }
+}
+@media (max-width:350px) {
+    footer{
+        margin-top: 30px;
+    }
+    .ft .ft-flex ul{
+        margin: 20px 10px;
+    }
+}
+@media (max-width:330px) {
+    .input2{
+    }
+    .input2 input {
+        width: 30%;
+    }
+}

@@ -1,0 +1,152 @@
+.head-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-bx-2{
+    margin-top: 20px;
+}
+
+
+.burger-head span{
+    margin: 3px 0;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    display: block;
+}
+.button{
+    width: 270px;
+    height: 50px;
+    background: #7FAD39;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    flex-shrink: 0;
+}
+
+.button h3{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.catarogie{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 621px;
+    padding-left: 10px;
+    height: 50px;
+    background: #FFFFFF;
+    flex-shrink: 0;
+    border: 1px solid rgba(42, 42, 42, 0.2);
+}
+.catarogie h3{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A2A2A;
+}
+input{
+    border: none;
+    outline: none;
+    width: 40%;
+    flex-shrink: 0;
+}
+input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #999999;
+}
+
+.line-head2{
+    width: 0px;
+    height: 14px;
+    border: 1px solid rgba(42, 42, 42, 0.2);
+}
+
+.catarogie button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 15px;
+    background: #7FAD39;
+    border: none;
+}
+.tele h3{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2A2A2A;
+}
+.tele{
+    display: flex;
+    align-items: center;
+}
+
+
+.search{
+    display: none;
+}
+
+.tele .tex{
+    margin-left: 10px;
+}
+
+.tele p{
+    font-weight: 500;
+    font-size: 13px;
+    color: #999999;
+}
+
+@media (max-width:1080px) {
+    .catarogie{
+        width: 50%;
+    }
+}
+@media (max-width:920px) {
+    .button{
+        width: 25%;
+    }
+}
+@media (max-width:810px) {
+    .head-3{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .tele{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    input{
+        width: auto;
+    }
+}
+@media (max-width:710px) {
+    .burger-head{
+        display: none;
+    }
+}
+@media (max-width:650px) {
+    .head-3{
+        justify-content: space-between;
+    }
+    .tele{
+        display: none;
+    }
+    .button{
+        width: 50%;
+    }
+    .catarogie{
+        display: none;
+    }
+    .search{
+        display: block;
+        
+    }
+}

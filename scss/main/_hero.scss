@@ -1,0 +1,99 @@
+.hero-box{
+    margin-top: 30px;
+}
+.hero{
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+}
+
+.flex-1{
+    padding-left: 10px;
+    padding-right: 130px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: 1px solid rgba(42, 42, 42, 0.2);
+}
+
+
+
+.flex-1 p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    color: #999999;
+}
+
+.flex-2{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.flex-2 h4{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    color: #7FAD39;
+}
+.flex-2 h2{
+    margin-top: 30px;
+    max-width: 350px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    color: #2A2A2A;
+}
+
+.flex-2 button{
+    padding: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #7FAD39;
+    border: none;
+}
+.flex-2 p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #999999;
+}
+
+
+@media (max-width:990px) {
+    .hero{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:840px) {
+    .flex-2 {
+        margin-top: 20px;
+    }
+    .flex-2 img{
+        width: 40%;
+    }
+    .flex-2 h2{
+    font-size: 30px;
+    }
+}
+@media (max-width:470px) {
+    .flex-2 {
+        text-align: center;
+        display: block;
+    }
+    .flex-2 h2{
+        margin: 0 auto;
+    }
+    .flex-2 button{
+        padding: 10px;
+    }
+    .flex-2 img{
+        margin-top: 20px;
+        width: 80%;
+    }
+}

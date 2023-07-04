@@ -1,0 +1,89 @@
+.sc4-box{
+    margin-top: 60px;
+}
+
+.team-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.team-1 .div{
+    display: flex;
+    align-items: center;
+}
+.icon-strelka{
+    margin-left: 20px;
+    display: flex;
+}
+.team-1 h3{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 50px;
+    color: #2A2A2A;
+}
+
+
+.team-2 .box{
+    margin: 50px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-2 .box .card{
+    display: flex;
+    align-items: center;
+    margin: 0 0px;
+    width: 360px;
+    height: 110px;
+}
+
+.team-2 .tex{
+    margin-left: 20px;
+}
+
+.team-2 h4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2A2A2A;
+}
+
+.team-2 h3{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000;
+}
+
+
+@media (max-width:1100px) {
+    .team-1 h3{
+        display: none;
+    }
+}
+
+@media (max-width:950px) {
+    .team-2 .box{
+        justify-content: start;
+        overflow-x: auto;
+    }
+    .team-2 .box .card {
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width:550px) {
+    .icon-strelka:nth-child(1) {
+        display: none;
+    }
+}
+@media (max-width:410px) {
+    .team-1{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 0;
+    }
+}

@@ -1,0 +1,28 @@
+.sc2-box{
+    margin-top: 30px;
+}
+.sc2{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+.sc2 .card{
+    flex-shrink: 0;
+    padding: 14px 0px;
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    margin: 10px 20px;
+    background: #F5F5F5;
+}
+.sc2-btn{
+    width: 230px;
+    height: 43px;
+    background: #FFFFFF;
+    margin: 10px  auto;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #2A2A2A;
+}
